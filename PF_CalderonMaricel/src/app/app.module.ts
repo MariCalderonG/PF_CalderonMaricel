@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoArgProgComponent } from './components/logo-arg-prog/logo-arg-prog.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     LogoArgProgComponent,
     SocialmediaComponent,
-    BannerComponent
+    BannerComponent,
+    AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
